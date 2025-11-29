@@ -1,13 +1,9 @@
 name: Python Unit Tests
 
 on:
-<<<<<<< HEAD
-  push:['main']
-=======
   push:
     branches: [ main ]
->>>>>>> de5c05d5057503c755204ac2cf6cf886f02afed4
-
+    
 jobs:
   test:
     runs-on: ubuntu-latest
